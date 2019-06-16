@@ -7,7 +7,6 @@ const path = require('path');
 const cors = require('cors');
 
 
-
 const app = express();
 //Para permitir que o servidor seja acessado pelas views Reactjs e Native
 const server = require('http').Server(app);
